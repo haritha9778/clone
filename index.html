@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creativity Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Creativity Generator 🚀</h1>
+
+<form method="POST">
+    <input type="text" name="keyword" placeholder="Enter any keyword..." required>
+    <button type="submit">Generate</button>
+</form>
+
+{% if content %}
+    <h3>Generated Content:</h3>
+    <p>{{ content }}</p>
+
+    <a href="/download">Download</a>
+{% endif %}
+
+</body>
+</html>

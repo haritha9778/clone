@@ -1,0 +1,66 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+h1 {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+}
+
+/* Form */
+form {
+    margin: 20px;
+}
+
+/* Input box */
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Output box */
+p {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 18px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Download link */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background: #2196F3;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #0b7dda;
+}
